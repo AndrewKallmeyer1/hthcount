@@ -40,6 +40,7 @@
 .content h1{
     font-size: 60px; 
     font-weight: 600; 
+    margin-bottom: 20px; 
 }
 
 .content h1 span{
@@ -59,7 +60,8 @@
     color: #fff; 
     display: flex; 
     align-items: center; 
-    margin-top: 30px; 
+    margin-top: 40px; 
+    margin-left: 200px; 
     cursor: pointer; 
 }
 
@@ -70,10 +72,11 @@
 
 .launch-time{
     display: flex; 
+    margin-left: 65px; 
 }
 
 .launch-time div{
-    flex-basis: 120px; 
+    flex-basis: 150px; 
 }
 
 .launch-time div p{
@@ -86,15 +89,19 @@
     position: absolute;
     right: 50%; 
     bottom: 0; 
-    animation: snore 6s linear infinite; 
+    animation: snore 4s linear infinite; 
 }
 @keyframes snore{
     0%{
         bottom: 0; 
         opacity: 0; 
     }
-    100%{
-        bottom: 105%; 
+    50%{
+        bottom:15%; 
         opacity: 1; 
+    }
+    100%{
+        bottom: 30%; 
+        opacity: 0; 
     }
 }
