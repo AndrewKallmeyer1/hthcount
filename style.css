@@ -22,12 +22,10 @@
 }
 
 .man{
-    top: 75%; 
-    right: 650px; 
+    top: 79%; 
+    right: 670px; 
     position: absolute;
     transform: translateY(-50%); 
-    z-index: 5; 
-
 }
 
 .content{
@@ -36,7 +34,6 @@
     position: absolute;
     transform: translateY(-50%); 
     color: #fff; 
-    z-index: 1; 
 }
 
 .content h1{
@@ -65,7 +62,6 @@
     margin-top: 40px; 
     margin-left: 200px; 
     cursor: pointer; 
-    z-index: 10;
 }
 
 .content button img{
